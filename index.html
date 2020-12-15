@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmarZarate website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> -->
+
+</head>
+
+<body>
+    <header class="head">
+        <!-- <div class="logo">
+            <img src="/img/workingPc.jpg" alt="logo">
+        </div> -->
+        <button class="btn-dark" onclick="cambiarModo()"><i class="far fa-lightbulb"></i></i></button>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="content">
+
+        <section class="intro" id="home" data-aos="flip-left">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Omar Zarate</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+            <img src="img/omar 1.jpg" alt="omar 1" class="intro__img">
+        </section>
+
+        <!-- My services -->
+
+        <section class="my-services" id="services" data-aos="fade-right">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design & Development</h3>
+                    <p>As a full stack developer, I create, design and develop complete web applications. My stack of
+                        technologies are Html, Css, JavaScript, Node, Express, Sql, Postgres. I am also interested in
+                        GraphQl, with some experience in Apollo client.</p>
+                </div>
+
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        <!--fin servicess -->
+
+        <!-- About Me -->
+
+        <section class="about-me" id="about" data-aos="fade-left">
+            <h2 class="section__tile section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">FullStack Developer based out in Argentine</p>
+
+            <div class="about-me__body">
+                <p>I started my career as a Philosopher, passionate about truth, beauty and the evolution of humanity's
+                    thought.</p>
+                <p>During my work as a teacher, I assumed the role of principal and discovered the power of leadership,
+                    which is why I became a Master of Business Administration (MBA), with strong skills in
+                    organizational behavior, strategy and finance.</p>
+                <p>I have always had a passion for human evolution, technology and computational human interaction,
+                    which is why I became a Developer, to seize the opportunity to be part of the power of technology to
+                    transform the world and lead humanity into the future.</p>
+            </div>
+
+            <img src="img/omar 2.jpg" alt="" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+
+        <section class="my-work" id="work" data-aos="fade-right">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <p >[  Work in progress... <i class="fas fa-laptop-code"></i>  ]</p>
+            
+            <div class="portfolio">
+                <!-- portfolio item 01 -->
+                <a href="projects.html" class="portfolio__item">
+                    <img src="img/logo/GymLogo.gif" alt="" class="portfolio__img">
+                </a>
+                <!-- portfolio item 02 -->
+                <a href="project2.html" class="portfolio__item">
+                    <img src="img/Todo list.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- portfolio item 03 -->
+                <a href="project3.html" class="portfolio__item">
+                    <img src="img/email flex.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- portfolio item 04 -->
+                <a href="project4.html" class="portfolio__item">
+                    <img src="img/workingPc.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- portfolio item 05 -->
+                <a href="project4.html" class="portfolio__item">
+                    <img src="img/workingPc.jpg" alt="" class="portfolio__img">
+                </a>
+                <!-- portfolio item 06 -->
+                <a href="project4.html" class="portfolio__item">
+                    <img src="img/workingPc.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <a href="mailto:8omarzarate@gmail.com" class="footer__link">8omarzarate@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/omarzaratefullstack/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/omarzarate">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/omarz8">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800
+        });
+    </script>
+    <script type="text/javascript">
+        function cambiarModo() {
+            var cuerpoweb = document.body;
+            cuerpoweb.classList.toggle("dark");
+        } 
+    </script>
+</body>
+
+</html>
